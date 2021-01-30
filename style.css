@@ -1,0 +1,68 @@
+:root {
+    --blockWidth: 50;
+    --containerWidth: 800px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    margin: 0;
+    padding: 0;
+    height: var(--blockWidth);
+    width: var(--blockWidth);
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--containerWidth);
+    /*variable*/
+    margin: 0 auto;
+    border: 3px solid #333;
+    padding: 3px 2px 3px 3px;
+}
+
+input {
+    max-width: 50%;
+}
+
+#slidercontainer {
+    align-self: center;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#sliderContent {
+    display: flex;
+    align-items: center;
+}
+
+#sliderContent input {
+    margin: 0 15px;
+}
+
+button {
+    margin: 15px;
+}
